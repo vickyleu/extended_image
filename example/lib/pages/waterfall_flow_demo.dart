@@ -42,7 +42,7 @@ class _WaterfallFlowDemoState extends State<WaterfallFlowDemo> {
                   max(data.maxWidth ~/ (ScreenUtil.instance.screenWidthDp / 2.0), 2);
               return LoadingMoreList(
                 ListConfig<TuChongItem>(
-                  waterfallFlowDelegate: WaterfallFlowDelegate(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: crossAxisCount,
                     crossAxisSpacing: 5,
                     mainAxisSpacing: 5,

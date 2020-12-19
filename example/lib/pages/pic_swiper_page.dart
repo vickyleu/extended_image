@@ -5,7 +5,7 @@ import 'package:flutter_candies_demo_library/flutter_candies_demo_library.dart';
 @FFRoute(
     name: "fluttercandies://picswiper",
     routeName: "PicSwiper",
-    argumentNames: ["index", "pics"],
+    argumentImports: ["index", "pics"],
     showStatusBar: false,
     pageRouteType: PageRouteType.transparent)
 class PicSwiperPage extends StatelessWidget {
